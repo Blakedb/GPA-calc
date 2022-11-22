@@ -62,4 +62,3 @@ def calc(grades):
     
 main()
 
-print("Gabagool")
