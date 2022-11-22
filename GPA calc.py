@@ -1,5 +1,5 @@
 # GPA calc
-``
+
 all_grades = ["a", "a-", "b+", "b", "b-", "c+", "c", "c-", "d+", "d", "d-", "f"]
 
 def main():
@@ -61,3 +61,5 @@ def calc(grades):
     return gpa_total / len(grades)
     
 main()
+
+print("Gabagool")
