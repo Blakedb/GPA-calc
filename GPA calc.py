@@ -40,3 +40,4 @@ def calc(grades):
     return gpa_total / len(grades)
     
 main()
+
