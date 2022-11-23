@@ -1,6 +1,7 @@
 # GPA calc
-``
+
 all_grades = ["a", "a-", "b+", "b", "b-", "c+", "c", "c-", "d+", "d", "d-", "f"]
+all_gpa = [4.0, 3.7, 3.3, 3.0, 2.7, 2.3, 2.0, 1.7, 1.3, 1.0, 0.7, 0]
 
 def main():
     print("Welcome to GPA calc")
@@ -34,30 +35,8 @@ def grades(n_classes):
 def calc(grades): 
     gpa_total = 0
     for grade in grades:
-        if grade == "a":
-            gpa_total += 4.0
-        elif grade == "a-":
-            gpa_total += 3.7
-        elif grade == "b+":
-            gpa_total += 3.3
-        elif grade == "b":
-            gpa_total += 3.0
-        elif grade == "b-":
-            gpa_total += 2.7
-        elif grade == "c+":
-            gpa_total += 2.3
-        elif grade == "c":
-            gpa_total += 2.0
-        elif grade == "c-":
-            gpa_total += 1.7
-        elif grade == "d+":
-            gpa_total += 1.3
-        elif grade == "d":
-            gpa_total += 1.0
-        elif grade == "d-":
-            gpa_total += 0.7
-        else:
-            gpa_total += 0
+        letter_value = all_grades.index(grade)
+        gpa_total += all_gpa[letter_value]
     return gpa_total / len(grades)
     
 main()
