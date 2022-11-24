@@ -41,4 +41,3 @@ def calc(grades):
     
 main()
 
-meme = 'meme'
