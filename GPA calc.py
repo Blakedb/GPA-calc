@@ -41,4 +41,3 @@ def calc(grades):
     
 main()
 
-sd = 0
