@@ -1,6 +1,4 @@
-# GPA-calc
-Program to calculate GPA average for any number of classes
-
-First python project, still very new. 
-
-Looking for any and all feedback on this GPA calculator!
+# Projects
+Hello! Here are a handful of projects ive worked.
+Most involve data science and analysis.
+All feedback is appreciated! Thanks!
